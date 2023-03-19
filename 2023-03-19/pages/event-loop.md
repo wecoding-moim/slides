@@ -13,28 +13,28 @@ Start from 5:02
 
 ### Event Loop 1
 
-### ![](/images/event_loop/1.png)
+<img src="images/event_loop/1.png" style="max-height: 450px;">
 
 ---
 
 ### Event Loop 2
 
-### ![](/images/event_loop/2.gif)
+<img src="images/event_loop/2.gif" style="max-height: 450px;">
 
 ---
 
 ### Event Loop 3
 
-### ![](/images/event_loop/3.gif)
+<img src="images/event_loop/3.gif" style="max-height: 450px;">
 
 ---
 
 ### Event Loop 4
 
-### ![](/images/event_loop/4.gif)
+<img src="images/event_loop/4.gif" style="max-height: 450px;">
 
 ---
 
 ### Event Loop 5
 
-### ![](/images/event_loop/5.gif)
+<img src="images/event_loop/5.gif" style="max-height: 450px;">

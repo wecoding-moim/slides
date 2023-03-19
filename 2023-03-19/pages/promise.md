@@ -58,7 +58,7 @@ fetched.catch(reason => {
 
 ### Micro Task Queue
 
-### ![](/images/micro-task-queue.gif)
+<img src="/images/micro-task-queue.gif" style="max-height: 450px;">
 
 ---
 
@@ -81,6 +81,3 @@ Promise.resolve()
 
 console.log('sync end')
 ```
-
-
-

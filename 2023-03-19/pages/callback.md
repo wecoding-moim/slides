@@ -35,7 +35,6 @@ wecoding-moim
 
 # callback example 2
 
-
 ### code
 
 ```javascript
@@ -76,11 +75,17 @@ const newWords = words.filter(element => element.length > 6);
 console.log("newWords : ", newWords)
 ```
 
+<br>
+
+<v-click>
+
 ### output
 
 ```sh
 newWords :  [ 'exuberant', 'destruction', 'present' ]
 ```
+
+</v-click>
 
 ---
 
@@ -101,7 +106,11 @@ const oddNumber = arr.map(element => {
 
 <br>
 
+<v-click>
+
 ### output
 ```sh
 [ 1, 9 ]
 ```
+
+</v-click>

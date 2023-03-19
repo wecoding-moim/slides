@@ -36,6 +36,9 @@ src: ./pages/promise.md
 src: ./pages/async-await.md
 ---
 
+---
+src: ./pages/refactoring.md
+---
 
 ---
 src: ./pages/boj.md

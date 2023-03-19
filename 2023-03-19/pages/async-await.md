@@ -28,7 +28,7 @@ timer(1000)
 
 # async, await example 2
 
-```javascript
+```javascript {all} {maxHeight:'400px'}
 const timer = (time) => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
