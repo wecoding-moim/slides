@@ -7,20 +7,29 @@ const hello = () => {
   return "hello";
 }
 
-const say = (arg) {
-  console.log(arg());
+const say = (callback) => {
+  console.log(callback());
 }
 
-say(hello)
+say(hello);
+
+say(() => {
+  return "wecoding-moim";
+})
 ```
 
 <br>
+
+<v-click>
 
 ### output
 
 ```sh
 hello
+wecoding-moim
 ```
+
+</v-click>
 
 ---
 
@@ -39,6 +48,8 @@ console.log("3");
 
 <br>
 
+<v-click>
+
 ### output
 
 ```sh
@@ -46,6 +57,8 @@ console.log("3");
 3
 2
 ```
+
+</v-click>
 
 ---
 

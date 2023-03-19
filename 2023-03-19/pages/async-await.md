@@ -1,4 +1,4 @@
-# async, await example
+# async, await example 1
 
 ```javascript
 function timer(time) {
@@ -26,9 +26,17 @@ timer(1000)
 
 ---
 
-# async, await example
+# async, await example 2
 
 ```javascript
+const timer = (time) => {
+  return new Promise((resolve, reject) => {
+    setTimeout(() => {
+      resolve(time)
+    }, time)
+  })
+}
+
 const run = async () => {
   console.log('start')
   let time = await timer(1000);
@@ -40,9 +48,18 @@ const run = async () => {
   time = await timer(time + 1000);
   console.log('time:' + time)
   console.log('end')
+  return time
 }
 
-console.log('parent start')
-run()
-console.log('parent end')
+const run2 = async () => {
+  console.log('parent start')
+  const time = await run()
+  console.log('returned time : ', time)
+  console.log('parent end')
+}
+
+console.log('parent parent start')
+run2().then(() => {
+  console.log('parent parent end')
+})
 ```
