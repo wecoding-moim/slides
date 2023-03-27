@@ -1,8 +1,8 @@
 ---
 title: 위코딩모임
 layout: cover
-background: './images/wecode.jpg'
-class: 'text-center'
+background: "./images/wecode.jpg"
+class: "text-center"
 css: unocss
 highlighter: shiki
 lineNumbers: true
@@ -21,25 +21,25 @@ lineNumbers: true
 </style>
 
 ---
-src: ./pages/event-loop.md
+src: ./pages/2023-03-19/event-loop.md
 ---
 
 ---
-src: ./pages/callback.md
+src: ./pages/2023-03-19/callback.md
 ---
 
 ---
-src: ./pages/promise.md
+src: ./pages/2023-03-19/promise.md
 ---
 
 ---
-src: ./pages/async-await.md
+src: ./pages/2023-03-19/async-await.md
 ---
 
 ---
-src: ./pages/refactoring.md
+src: ./pages/2023-03-19/refactoring.md
 ---
 
 ---
-src: ./pages/boj.md
+src: ./pages/2023-03-19/boj.md
 ---
