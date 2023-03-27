@@ -1,7 +1,5 @@
 # wecoding-moim
 
 ```sh
-npx slidev
+npm start
 ```
-
-[2023-03-19](./2023-03-19)
