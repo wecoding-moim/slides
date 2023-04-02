@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: red;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.detail {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: green;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.login {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  background-color: blue;
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
