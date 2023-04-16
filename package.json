@@ -2,7 +2,7 @@
   "name": "wecoding-moim",
   "private": true,
   "scripts": {
-    "start": "slidev slides/2023-04-02.md",
+    "start": "slidev slides/2023-04-16.md",
     "build": "slidev build",
     "dev": "slidev --open",
     "export": "slidev export"
