@@ -1,6 +1,6 @@
 # Promise
 
-![](/images/Promise/1.png)
+![Promise](/public/images/2023-03-19/Promise/1.png)
 
 
 A Promise is in one of these states:
@@ -38,7 +38,7 @@ const result = awaitFetch(url).then(response => {
 
 ---
 
-# fetch example 2 
+# fetch example 2
 
 ```javascript
 const url = 'https://jsonplaceholder.typicode.com/posts'
@@ -58,7 +58,7 @@ fetched.catch(reason => {
 
 ### Micro Task Queue
 
-<img src="/images/micro-task-queue.gif" style="max-height: 450px;">
+<img src="/public/images/2023-03-19/micro-task-queue.gif" style="max-height: 450px;">
 
 ---
 
